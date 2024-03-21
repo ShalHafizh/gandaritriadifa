@@ -10255,10 +10255,10 @@ body.section-show .transition-mask:before{
 .info-list > li{
 	margin-bottom:20px;
 	float:left;
-	width:25%;
+	width:28%;
 }
 .info-list > li > .inner{
-	padding:15px 0;
+	padding:5px 0;
 }
 .info-list > li > *{
 	line-height:1em;
