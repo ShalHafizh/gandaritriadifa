@@ -883,6 +883,29 @@ procurement projects worth Rp 13.8 billion.">
     }
 
 }
+
+.mil-about-video {
+    width: 100%;
+}
+
+.mil-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #111;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.mil-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 </style>
 
 <body>
@@ -985,67 +1008,139 @@ industries.
 
 
 
-                 <!-- about -->
-                <div class="mil-container" id="about">
-                    <div class="row">
-                        <div class="col-lg-8 col-xl-6 mil-mb90">
-                            <h2 class="mil-fs24 mil-mb30 mil-up">About</h2>
-                            <p class="mil-fs18 mil-up">Hello there! I'm <span class="mil-accent">Gandari Tri Adifa</span>, a Communication Science graduate with experience in
-digital marketing, content creation, and business
-development across healthcare and technology
-industries. Track record of securing government
-procurement projects worth Rp 13.8 billion.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-container-out">
-                    <div class="mil-about-banner">
-                        <div class="mil-up" style="position: relative; z-index: 2">
-                            <div class="mil-sign">Adifa</div>
-                        </div>
-                        <div class="mil-image-frame mil-up">
-                            <img src="img/profile2.png" alt="banner" class="mil-scale-img" data-value-1="1" data-value-2="1.25">
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-container mil-p-90-90 mil-1200-p-30-90">
-                    <div class="row flex-sm-row-reverse">
-                        <div class="col-xl-6" style="position: relative;">
-                            <ul class="mil-contact-info mil-mb30 mil-up">
-                                <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">Email</h6>
-                                    <p class="mil-fs16 mil-soft mil-up">gandaritriadifa@gmail.com</p>
-                                </li>
-                                <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">Role</h6>
-                                    <p class="mil-fs16 mil-soft mil-up">Relationship Officer</p>
-                                </li>
-                                <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">Phone</h6>
-                                    <p class="mil-fs16 mil-soft mil-up">(+62) 813-3366-0456</p>
-                                </li>
-                                <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">CV</h6>
-                                    <div class="mil-up mil-c-gone"><a href="Gandari_Tri_Adifa_CV_Marketing_2026.pdf" class="mil-text-link mil-fs16">Download CV</a></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-6">
-                            <p class="mil-soft mil-fs16 mil-mb30 mil-up">Communication Science graduate with experience in digital marketing, content creation, and business communication across
-healthcare and technology industries. Skilled in social media management, SEO writing, content planning, and visual
-content production.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <p class="mil-soft mil-fs16 mil-mb30 mil-up">Proven ability to develop engaging marketing materials, support campaign execution, and communicate
-effectively with diverse audiences. Experienced in collaborative projects, event coordination, and creative content
-development using digital tools and social media platforms.</p>
-                        </div>
-                    </div>
-                     <div class="mil-profile-info">
+                <!-- about -->
+<div class="mil-container" id="about">
+    <div class="row">
+        <div class="col-lg-8 col-xl-6 mil-mb90">
+            <h2 class="mil-fs24 mil-mb30 mil-up">About</h2>
+            <p class="mil-fs18 mil-up">
+                Hello there! I'm <span class="mil-accent">Gandari Tri Adifa</span>, 
+                a Communication Science graduate with experience in digital marketing, 
+                content creation, and business development across healthcare and technology 
+                industries. Track record of securing government procurement projects worth 
+                Rp 13.8 billion.
+            </p>
+        </div>
+    </div>
+</div>
 
-    <div class="mil-info-card">
+
+<div class="mil-container-out">
+    <div class="mil-about-banner">
+        <div class="mil-up" style="position: relative; z-index: 2;">
+            <div class="mil-sign">Adifa</div>
+        </div>
+
+        <div class="mil-image-frame mil-up">
+            <img 
+                src="img/profile2.png" 
+                alt="Gandari Tri Adifa" 
+                class="mil-scale-img" 
+                data-value-1="1" 
+                data-value-2="1.25"
+            >
+        </div>
+    </div>
+</div>
+
+<div class="mil-container mil-p-90-90 mil-1200-p-30-90">
+
+    <!-- about video -->
+<div class="mil-about-video mil-up">
+    <div class="row align-items-center">
+
+        <div class="col-lg-6 mil-mb30">
+            <div class="video-wrapper">
+
+    <video
+    loop
+    controls
+     playsinline
+        webkit-playsinline
+        preload="metadata">
+
+        <source src="img/video.mp4" type="video/mp4">
+
+    </video>
+
+</div>
+
+<style>
+.video-wrapper{
+    position:relative;
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    overflow:hidden;
+    border-radius:8px;
+    aspect-ratio:16/9;
+    background:#000;
+}
+
+.video-wrapper video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+</style>
+        </div>
+    </div>
+</div>
+<!-- about video end -->
+
+    <div class="row flex-sm-row-reverse">
+        <div class="col-xl-6" style="position: relative;">
+            <ul class="mil-contact-info mil-mb30 mil-up">
+                <li>
+                    <h6 class="mil-fs16 mil-mb10 mil-up">Email</h6>
+                    <p class="mil-fs16 mil-soft mil-up">gandaritriadifa@gmail.com</p>
+                </li>
+
+                <li>
+                    <h6 class="mil-fs16 mil-mb10 mil-up">Role</h6>
+                    <p class="mil-fs16 mil-soft mil-up">Relationship Officer · Business Development · Marketing</p>
+                </li>
+
+                <li>
+                    <h6 class="mil-fs16 mil-mb10 mil-up">Phone</h6>
+                    <p class="mil-fs16 mil-soft mil-up">(+62) 813-3366-0456</p>
+                </li>
+
+                <li>
+                    <h6 class="mil-fs16 mil-mb10 mil-up">CV</h6>
+                    <div class="mil-up mil-c-gone">
+                        <a href="Gandari_Tri_Adifa_CV_Marketing_2026.pdf" class="mil-text-link mil-fs16">
+                            Download CV
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-xl-6">
+            <p class="mil-soft mil-fs16 mil-mb30 mil-up">
+                Communication Science graduate with experience in digital marketing, content creation, and business communication, including managing multi-billion-value projects and collaborating with diverse stakeholders across multiple provinces.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <p class="mil-soft mil-fs16 mil-mb30 mil-up">
+                Proven ability to develop engaging marketing materials, support campaign 
+                execution, and communicate effectively with diverse audiences. Experienced in 
+                collaborative projects, event coordination, and creative content development 
+                using digital tools and social media platforms.
+            </p>
+        </div>
+    </div>
+
+    <div class="mil-profile-info mil-mb60">
+
+    <div class="mil-info-card mil-up">
         <i class="fa-solid fa-graduation-cap"></i>
         <div>
             <span>Education</span>
@@ -1053,7 +1148,7 @@ development using digital tools and social media platforms.</p>
         </div>
     </div>
 
-    <div class="mil-info-card">
+    <div class="mil-info-card mil-up">
         <i class="fa-solid fa-cake-candles"></i>
         <div>
             <span>Age</span>
@@ -1061,7 +1156,7 @@ development using digital tools and social media platforms.</p>
         </div>
     </div>
 
-    <div class="mil-info-card">
+    <div class="mil-info-card mil-up">
         <i class="fa-solid fa-mosque"></i>
         <div>
             <span>Religion</span>
@@ -1070,8 +1165,13 @@ development using digital tools and social media platforms.</p>
     </div>
 
 </div>
-                </div>
-                <!-- about end -->
+
+
+
+   
+
+</div>
+<!-- about end -->
 
            
 <!-- skills -->
@@ -1081,13 +1181,6 @@ development using digital tools and social media platforms.</p>
 
         <div class="col-xl-8 mil-mb60">
             <h2 class="mil-fs24 mil-mb30 mil-up">Skills & Competencies</h2>
-
-            <p class="mil-fs18 mil-up">
-                Experienced in <span class="mil-accent">Business Development</span>,
-                Digital Marketing, Creative Production, and Web Development with a
-                strong ability to build relationships, manage projects, and create
-                impactful digital experiences.
-            </p>
         </div>
 
         <div class="col-12">
@@ -1251,30 +1344,267 @@ narration.</li>
 
 
 <!-- education -->
-<div class="mil-container mil-p-0-30" id="education">
-    <div class="row">
-        <div class="col-xl-8 mil-mb60">
-            <h2 class="mil-fs24 mil-up">Education</h2>
-        </div>
+<div class="mil-container mil-p-0-90" id="education">
 
-        <!-- Education 1 -->
-        <div class="col-md-6">
-            <div class="mil-exp-item mil-mb60">
-                <div style="padding-right: 20px;" class="mil-date mil-up">
-                    <span class="mil-soft mil-accent">2019 – 2023</span>
-                </div>
-                <div>
-                    <h6 class="mil-fs16 mil-mb10 mil-up">Bachelor of Communication Science, Public Relations Concentration</h6>
-                    <p class="mil-fs16 mil-soft mil-up">Bhayangkara University of Surabaya</p>
-                    <p class="mil-fs16 mil-soft mil-up mil-mt10">
-                      * GPA 3.84 / 4.00
-                    </p>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-xl-8 mil-mb10">
+            <h2 class="mil-fs18 mil-up">Education</h2>
         </div>
     </div>
+
+    <div class="mil-education-box mil-up">
+
+        <div class="row align-items-start">
+
+            <!-- Education Info -->
+            <div class="col-lg-7 mil-mb30">
+                <div class="mil-edu-content">
+
+                    <div class="mil-edu-year mil-mb20">
+                        <span>2019 – 2023</span>
+                    </div>
+
+                    <h3 class="mil-edu-title">
+                        Bachelor of Communication Science, Public Relations Concentration
+                    </h3>
+
+                    <p class="mil-edu-campus">
+                        Bhayangkara University of Surabaya
+                    </p>
+
+                    <p class="mil-edu-gpa">
+                        GPA 3.84 / 4.00
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- Graduation Photo -->
+            <div class="col-lg-5 mil-mb30">
+                <div class="mil-edu-photo">
+                    <img src="https://drive.google.com/thumbnail?id=17SdZGSYRUgVceDWYvZuYa9bep7Qbhu0q&sz=w2000" alt="Graduation Photo">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Achievements -->
+        <div class="mil-edu-achievements mil-mt30">
+            <h4 class="mil-fs18 mil-mb20 mil-up">Achievements & Activities</h4>
+
+            <ul>
+                <li>
+                    Speaker at RRI Surabaya Pro 2 “Sore Ceria” representing Bhayangkara University for Kampus Merdeka Program.
+                </li>
+                <li>
+                    CV & Interview Workshop Facilitator with 1,000+ participants, mentored 60+ participants, and reviewed 15 CVs.
+                </li>
+                <li>
+                    Volunteer guidebook contributor for children’s literacy program in collaboration with Gramedia, Kelas Sekolah Literasi Indonesia, Let’s Read, and Asia Foundation.
+                </li>
+                <li>
+                    Published article “Polisi Wanita Berkorban Alam di Selopuro” in Harian Pagi Surya / Tribun Network.
+                </li>
+                <li>
+                    1st Place – Creative Work Competition in Social Media Campaign Video Creative Skills Training.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Documentation -->
+        <div class="mil-edu-gallery mil-mt50">
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="img/speaker.png" alt="Speaker RRI">
+                <p>Speaker RRI Surabaya PRO 2</p>
+            </div>
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="https://drive.google.com/thumbnail?id=1onfE5-iMkFP2IRTdphRs_Au8QfCdYTWi&sz=w2000" alt="Published Article">
+                <p>Published Article</p>
+            </div>
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="https://drive.google.com/thumbnail?id=1SBn6Xw5kutBzq3DkVDKf_uCzwLzndw5n&sz=w2000" alt="Workshop Facilitator">
+                <p>Workshop Facilitator</p>
+            </div>
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="https://drive.google.com/thumbnail?id=1601EC-OofFmaFpO1cpNhBdump29PyRJq&sz=w2000" alt="Finalist Award">
+                <p>Finalist Award</p>
+            </div>
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="https://drive.google.com/thumbnail?id=1BcKGn81Zk1SJq5Jm-zlrkEuSSu0fAGuk&sz=w2000" alt="Certificate">
+                <p>Certificate</p>
+            </div>
+
+            <div class="mil-edu-gallery-item mil-up">
+                <img src="https://drive.google.com/thumbnail?id=12d6ZSBykCVCpyrIL1BN1DZ9_zAUIyDHf&sz=w2000" alt="Volunteer Activity">
+                <p>Volunteer Activity</p>
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
 <!-- education end -->
+
+<style>
+    .mil-education-box {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.mil-edu-year span {
+    display: inline-block;
+    color: #b88714;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mil-edu-title {
+    max-width: 620px;
+    margin-bottom: 18px;
+    color: #111;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.mil-edu-campus {
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mil-edu-gpa {
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mil-edu-photo {
+    width: 100%;
+    max-width: 260px;
+    margin-left: auto;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.14);
+}
+
+.mil-edu-photo img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+}
+
+.mil-edu-achievements {
+    max-width: 880px;
+}
+
+.mil-edu-achievements h4 {
+    color: #111;
+    font-weight: 500;
+}
+
+.mil-edu-achievements ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.mil-edu-achievements li {
+    margin-bottom: 14px;
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.mil-edu-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.mil-edu-gallery-item {
+    overflow: hidden;
+}
+
+.mil-edu-gallery-item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.mil-edu-gallery-item p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .mil-edu-photo {
+        margin-left: 0;
+        max-width: 240px;
+    }
+
+    .mil-edu-title {
+        font-size: 16px;
+    }
+
+    .mil-edu-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .mil-education-box {
+        padding: 30px 0;
+    }
+
+    .mil-edu-title {
+        font-size: 16px;
+    }
+
+    .mil-edu-campus,
+    .mil-edu-gpa {
+        font-size: 16px;
+    }
+
+    .mil-edu-achievements li {
+        font-size: 15px;
+    }
+
+    .mil-edu-gallery {
+        gap: 18px;
+    }
+
+    .mil-edu-gallery-item img {
+        height: 145px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mil-edu-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .mil-edu-gallery-item img {
+        height: 210px;
+    }
+}
+</style>
 
 
 
@@ -1284,7 +1614,10 @@ narration.</li>
         <div class="col-lg-8 mil-mb90">
             <h2 class="mil-fs24 mil-mb30 mil-up">Portfolio</h2>
             <p class="mil-fs18 mil-up">
-                A collection of my works in <span class="mil-accent">data analytics</span> and <span class="mil-accent">export operations</span>, showcasing projects using SQL, Python, and Tableau to deliver actionable business insights.
+                A collection of my works in <span class="mil-accent">creative content</span>, 
+<span class="mil-accent">visual communication</span>, and 
+<span class="mil-accent">professional projects</span>, showcasing design, photography, 
+videography, writing, certificates, volunteer activities, and work experiences.
             </p>
         </div>
     </div>
@@ -1295,9 +1628,12 @@ narration.</li>
                     <div class="swiper-container mil-portfolio-slider mil-up mil-c-swipe mil-c-light">
                         <div class="portfolio-grid">
 
-    <div class="portfolio-card"
+<div class="portfolio-card"
      data-title="Design"
+     data-drive-folder="https://drive.google.com/drive/folders/1AOkmkdowIw1bPd1mROoab10RwPbb0zXq"
+     data-drive-index="0"
      data-images="
+https://drive.google.com/thumbnail?id=12w-68paTmpCSOqSzDApHdKtR1mscS81M&sz=w2000,
 https://drive.google.com/thumbnail?id=1BITvConfGAQ4HgrsPyLGVDaNSgTRdhgF&sz=w2000,
 https://drive.google.com/thumbnail?id=1BS9YJuf4K5Jud_D7psqejzffH2-dJD_L&sz=w2000,
 https://drive.google.com/thumbnail?id=1BVKq0yN4ogkth__rRneaBwTk60wI7tRl&sz=w2000,
@@ -1363,18 +1699,13 @@ https://drive.google.com/thumbnail?id=1covO8NqJe_gtPyGyX_rdUf94zMc3Hq3o&sz=w2000
      data-title="Graha Ksatria Envirotama"
      data-images="
 https://drive.google.com/thumbnail?id=1UWvq307TqgtaMaSHQmIVptiHFIIxGidD&sz=w2000,
-https://drive.google.com/thumbnail?id=1BvkTBXFfy0wD70GrTtLcqtMgc_inShlE&sz=w2000,
-https://drive.google.com/thumbnail?id=1c2KztC3x44E6ao8ts9xci-til4GUYy0b&sz=w2000,
-https://drive.google.com/thumbnail?id=1c2My46rEMvUB3o7wWQJV_R60Udl_boSk&sz=w2000,
-https://drive.google.com/thumbnail?id=1v4sKIl_rp1g2FbUG45SjNgZ3H1pfGrcg&sz=w2000,
-https://drive.google.com/thumbnail?id=1IxetEEfalUjR_gf7csUhKPyC6mdMc46Y&sz=w2000,
-https://drive.google.com/thumbnail?id=1D896OBkYzU4Eq5F_KhGG5NqPtQIYVPzN&sz=w2000,
 https://drive.google.com/thumbnail?id=1-UtBGyuoTvV0lwFMNawUVRiMj5-JPQNk&sz=w2000,
-https://drive.google.com/thumbnail?id=1BrD6E6PX0Y09CYrLOIrwGRaqd1zgGe5a&sz=w2000,
-https://drive.google.com/thumbnail?id=1jvTaA63UvvlvrokoBzvI0IIH1BrK3XEh&sz=w2000
+https://drive.google.com/thumbnail?id=1c2My46rEMvUB3o7wWQJV_R60Udl_boSk&sz=w2000,
+https://drive.google.com/thumbnail?id=1jvTaA63UvvlvrokoBzvI0IIH1BrK3XEh&sz=w2000,
+https://drive.google.com/thumbnail?id=1D896OBkYzU4Eq5F_KhGG5NqPtQIYVPzN&sz=w2000
 ">
 
-    <img src="https://drive.google.com/thumbnail?id=1BrD6E6PX0Y09CYrLOIrwGRaqd1zgGe5a&sz=w2000">
+    <img src="https://drive.google.com/thumbnail?id=1jvTaA63UvvlvrokoBzvI0IIH1BrK3XEh&sz=w2000">
 
     <div class="portfolio-overlay">
         <div class="portfolio-info">
@@ -1392,8 +1723,6 @@ https://drive.google.com/thumbnail?id=12d6ZSBykCVCpyrIL1BN1DZ9_zAUIyDHf&sz=w2000
 https://drive.google.com/thumbnail?id=19uWzBNCmln0CufVyHS-M2K_6_ukZoYmA&sz=w2000,
 https://drive.google.com/thumbnail?id=1601EC-OofFmaFpO1cpNhBdump29PyRJq&sz=w2000,
 https://drive.google.com/thumbnail?id=1BcKGn81Zk1SJq5Jm-zlrkEuSSu0fAGuk&sz=w2000,
-https://drive.google.com/thumbnail?id=1BFl647hI11KQOvI9gUBAfGU__W00DIhz&sz=w2000,
-https://drive.google.com/thumbnail?id=1BFQCwy6HfaWyegkyW0lF55iIC428GF3w&sz=w2000,
 https://drive.google.com/thumbnail?id=1YE4vtQSCQlIiZ4N7AjjxQy_LxBh-ZLIX&sz=w2000,
 https://drive.google.com/thumbnail?id=1ikXSAguz5H8Y9HyvsJYylEU8yBJpDJe3&sz=w2000,
 https://drive.google.com/thumbnail?id=1Wh-EGYtHkkVilM7QszWkg-1Z0XQE2h3v&sz=w2000,
@@ -1472,10 +1801,7 @@ https://drive.google.com/thumbnail?id=146wp_qniD_ZiQhFeFsjkn26zDGoiuDm2&sz=w2000
     data-title="Video"
 
     data-videos='[
-    {
-            "thumb":"img/portfolio/foto(8).png",
-            "url":"https://drive.google.com/file/d/1CqMQwmd4z6-fKZ3Xvm_YFbYDrj1wGNO6/view"
-        },
+  
         {
             "thumb":"img/portfolio/foto(1).png",
             "url":"https://drive.google.com/file/d/1JnP0uTPeMLct1q0hSa1hfp1wrS_zB8ag/view"
@@ -1511,27 +1837,12 @@ https://drive.google.com/thumbnail?id=146wp_qniD_ZiQhFeFsjkn26zDGoiuDm2&sz=w2000
         
     ]'>
 
-    <img src="img/portfolio/foto(8).png" alt="">
+    <img src="img/portfolio/foto(1).png" alt="">
 
     <div class="portfolio-overlay">
         <div class="portfolio-info">
-            <h4>Video</h4>
+            <h4>Videography</h4>
             <span>View Video</span>
-        </div>
-    </div>
-
-</div>
-
-<div class="portfolio-card"
-     data-title="Research Report MC"
-     data-pdf="https://drive.google.com/file/d/1qIaYiJVkI_CzvENRBfAjvKoRnvJWDufv/preview">
-
-    <img src="img/portfolio/research.png" alt="">
-
-    <div class="portfolio-overlay">
-        <div class="portfolio-info">
-            <h4>Research Report MC</h4>
-            <span>Read Document</span>
         </div>
     </div>
 
@@ -1608,39 +1919,6 @@ https://drive.google.com/thumbnail?id=146wp_qniD_ZiQhFeFsjkn26zDGoiuDm2&sz=w2000
             <li>Content Creation</li>
             <li>Public Speaking</li>
             <li>Audio Editing</li>
-        </ul>
-
-    </div>
-
-    <div class="service-card mil-up">
-
-        <div class="service-icon">
-            <i class="fa-solid fa-pen-ruler mil-accent"></i>
-        </div>
-
-        <h3>Design & Editing Tools</h3>
-
-        <ul class="service-list">
-            <li>Canva</li>
-            <li>CorelDRAW</li>
-            <li>CapCut</li>
-            <li>Kinemaster</li>
-            <li>Audacity</li>
-        </ul>
-
-    </div>
-
-    <div class="service-card mil-up">
-
-        <div class="service-icon">
-            <i class="fa-solid fa-laptop mil-accent"></i>
-        </div>
-
-        <h3>Office Tools</h3>
-
-        <ul class="service-list">
-            <li>Microsoft 365</li>
-            <li>Google Workspace</li>
         </ul>
 
     </div>
@@ -1775,7 +2053,39 @@ https://drive.google.com/thumbnail?id=146wp_qniD_ZiQhFeFsjkn26zDGoiuDm2&sz=w2000
 
     <img id="zoomImage" src="">
 
+    <a href="#"
+       id="driveFolderBtn"
+       class="drive-folder-btn"
+       target="_blank"
+       rel="noopener"
+       style="display: none;">
+        View More
+    </a>
+
 </div>
+
+<style>
+    .drive-folder-btn {
+    position: fixed;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background: #b88714;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.drive-folder-btn:hover {
+    background: #111;
+    color: #fff;
+}
+</style>
 
 <div class="gallery-modal" id="videoGalleryModal">
 
@@ -1865,20 +2175,102 @@ ${message}`;
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
+    // =========================
+    // IMAGE GALLERY ELEMENTS
+    // =========================
     const galleryModal = document.getElementById('galleryModal');
     const imageModal = document.getElementById('imageModal');
-
     const galleryGrid = document.getElementById('galleryGrid');
     const galleryTitle = document.getElementById('galleryTitle');
-
     const zoomImage = document.getElementById('zoomImage');
+    const driveFolderBtn = document.getElementById('driveFolderBtn');
 
     // =========================
-    // OPEN PROJECT GALLERY
+    // VIDEO GALLERY ELEMENTS
     // =========================
-    document.querySelectorAll('.portfolio-card').forEach(card => {
+    const videoGalleryModal = document.getElementById('videoGalleryModal');
+    const videoGalleryGrid = document.getElementById('videoGalleryGrid');
+    const videoGalleryTitle = document.getElementById('videoGalleryTitle');
+
+    // =========================
+    // PDF ELEMENTS
+    // =========================
+    const pdfModal = document.getElementById('pdfModal');
+    const pdfFrame = document.getElementById('pdfFrame');
+    const pdfTitle = document.getElementById('pdfTitle');
+
+    // =========================
+    // DRIVE BUTTON HELPERS
+    // =========================
+    function showDriveButton(url) {
+        if (!driveFolderBtn) return;
+
+        driveFolderBtn.href = url;
+        driveFolderBtn.style.display = 'inline-block';
+    }
+
+    function hideDriveButton() {
+        if (!driveFolderBtn) return;
+
+        driveFolderBtn.href = '#';
+        driveFolderBtn.style.display = 'none';
+    }
+
+    // =========================
+    // CLOSE HELPERS
+    // =========================
+    function closeImageModal() {
+        if (!imageModal) return;
+
+        imageModal.classList.remove('active');
+
+        if (zoomImage) {
+            zoomImage.src = '';
+        }
+
+        hideDriveButton();
+
+        if (!galleryModal || !galleryModal.classList.contains('active')) {
+            document.body.style.overflow = '';
+        }
+    }
+
+    function closeGalleryModal() {
+        if (!galleryModal) return;
+
+        galleryModal.classList.remove('active');
+        closeImageModal();
+
+        document.body.style.overflow = '';
+    }
+
+    function closeVideoGalleryModal() {
+        if (!videoGalleryModal) return;
+
+        videoGalleryModal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function closePdfModal() {
+        if (!pdfModal) return;
+
+        pdfModal.classList.remove('active');
+
+        if (pdfFrame) {
+            pdfFrame.src = '';
+        }
+
+        document.body.style.overflow = '';
+    }
+
+    // =========================
+    // OPEN IMAGE PROJECT GALLERY
+    // =========================
+    document.querySelectorAll('.portfolio-card[data-images]').forEach(card => {
 
         card.addEventListener('click', () => {
+
+            if (!galleryModal || !galleryGrid || !galleryTitle) return;
 
             const title = card.dataset.title || 'Gallery';
 
@@ -1887,28 +2279,46 @@ document.addEventListener('DOMContentLoaded', () => {
                 .map(img => img.trim())
                 .filter(Boolean);
 
-            if(images.length === 0){
-                return;
-            }
+            if (images.length === 0) return;
+
+            const driveFolder = card.dataset.driveFolder || '';
+            const driveIndex = Number(card.dataset.driveIndex);
 
             galleryTitle.textContent = title;
-
             galleryGrid.innerHTML = '';
 
-            images.forEach(image => {
+            images.forEach((image, index) => {
 
                 const item = document.createElement('div');
                 item.className = 'gallery-item';
 
-                item.innerHTML = `
-                    <img src="${image}" alt="${title}">
-                `;
+                const img = document.createElement('img');
+                img.src = image;
+                img.alt = title;
+                img.loading = 'lazy';
 
+                img.addEventListener('click', (e) => {
+                    e.stopPropagation();
+
+                    if (!imageModal || !zoomImage) return;
+
+                    zoomImage.src = image;
+
+                    // Tombol hanya muncul pada image sesuai data-drive-index
+                    if (driveFolder && index === driveIndex) {
+                        showDriveButton(driveFolder);
+                    } else {
+                        hideDriveButton();
+                    }
+
+                    imageModal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+
+                item.appendChild(img);
                 galleryGrid.appendChild(item);
 
             });
-
-            bindGalleryImages();
 
             galleryModal.classList.add('active');
             document.body.style.overflow = 'hidden';
@@ -1918,216 +2328,143 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // =========================
-    // IMAGE CLICK
+    // OPEN VIDEO GALLERY
     // =========================
-    function bindGalleryImages(){
-
-        document.querySelectorAll('.gallery-item img')
-        .forEach(img => {
-
-            img.addEventListener('click', () => {
-
-                zoomImage.src = img.src;
-
-                imageModal.classList.add('active');
-
-            });
-
-        });
-
-    }
-
-    // =========================
-    // CLOSE GALLERY MODAL
-    // =========================
-    document.querySelector('.gallery-close')
-    .addEventListener('click', () => {
-
-        galleryModal.classList.remove('active');
-
-        document.body.style.overflow = '';
-
-    });
-
-    // =========================
-    // CLOSE ZOOM MODAL
-    // =========================
-    document.querySelector('.image-close')
-    .addEventListener('click', () => {
-
-        imageModal.classList.remove('active');
-
-        zoomImage.src = '';
-
-    });
-
-    // =========================
-    // CLICK BACKDROP GALLERY
-    // =========================
-    galleryModal.addEventListener('click', e => {
-
-        if(e.target === galleryModal){
-
-            galleryModal.classList.remove('active');
-
-            document.body.style.overflow = '';
-
-        }
-
-    });
-
-    // =========================
-    // CLICK BACKDROP ZOOM
-    // =========================
-    imageModal.addEventListener('click', e => {
-
-        if(e.target === imageModal){
-
-            imageModal.classList.remove('active');
-
-            zoomImage.src = '';
-
-        }
-
-    });
-
-    // =========================
-    // ESC KEY SUPPORT
-    // =========================
-    document.addEventListener('keydown', e => {
-
-        if(e.key === 'Escape'){
-
-            imageModal.classList.remove('active');
-            galleryModal.classList.remove('active');
-
-            zoomImage.src = '';
-
-            document.body.style.overflow = '';
-
-        }
-
-    });
-
-});
-</script>
-
-<script>
-
-document.addEventListener('DOMContentLoaded', () => {
-
-    const videoGalleryModal =
-        document.getElementById('videoGalleryModal');
-
-    const videoGalleryGrid =
-        document.getElementById('videoGalleryGrid');
-
-    const videoGalleryTitle =
-        document.getElementById('videoGalleryTitle');
-
-    document.querySelectorAll('[data-videos]')
-    .forEach(card => {
+    document.querySelectorAll('[data-videos]').forEach(card => {
 
         card.addEventListener('click', () => {
 
-            const title = card.dataset.title;
+            if (!videoGalleryModal || !videoGalleryGrid || !videoGalleryTitle) return;
 
-            const videos =
-                JSON.parse(card.dataset.videos);
+            const title = card.dataset.title || 'Video';
+
+            let videos = [];
+
+            try {
+                videos = JSON.parse(card.dataset.videos || '[]');
+            } catch (error) {
+                console.error('Invalid video data:', error);
+                return;
+            }
+
+            if (videos.length === 0) return;
 
             videoGalleryTitle.textContent = title;
-
             videoGalleryGrid.innerHTML = '';
 
             videos.forEach(video => {
 
-                videoGalleryGrid.innerHTML += `
-                    <a href="${video.url}"
-                       target="_blank"
-                       class="video-gallery-item">
+                const link = document.createElement('a');
+                link.href = video.url;
+                link.target = '_blank';
+                link.className = 'video-gallery-item';
 
-                        <img src="${video.thumb}" alt="">
-
-                        <div class="video-play">
-                            <i class="fa-solid fa-play"></i>
-                        </div>
-
-                    </a>
+                link.innerHTML = `
+                    <img src="${video.thumb}" alt="${title}">
+                    <div class="video-play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
                 `;
+
+                videoGalleryGrid.appendChild(link);
 
             });
 
             videoGalleryModal.classList.add('active');
-
-        });
-
-    });
-
-    document.querySelector('.video-gallery-close')
-.addEventListener('click', () => {
-
-    videoGalleryModal.classList.remove('active');
-
-});
-
-// klik area luar modal
-videoGalleryModal.addEventListener('click', (e) => {
-
-    if (e.target === videoGalleryModal) {
-
-        videoGalleryModal.classList.remove('active');
-
-    }
-
-});
-
-});
-</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-
-    const pdfModal = document.getElementById('pdfModal');
-    const pdfFrame = document.getElementById('pdfFrame');
-    const pdfTitle = document.getElementById('pdfTitle');
-
-    document.querySelectorAll('[data-pdf]')
-    .forEach(card => {
-
-        card.addEventListener('click', () => {
-
-            pdfTitle.textContent =
-                card.dataset.title || 'Document';
-
-            pdfFrame.src =
-                card.dataset.pdf;
-
-            pdfModal.classList.add('active');
-
             document.body.style.overflow = 'hidden';
 
         });
 
     });
 
-    document.querySelector('.pdf-close')
-    .addEventListener('click', () => {
+    // =========================
+    // OPEN PDF MODAL
+    // =========================
+    document.querySelectorAll('[data-pdf]').forEach(card => {
 
-        pdfModal.classList.remove('active');
+        card.addEventListener('click', () => {
 
-        pdfFrame.src = '';
+            if (!pdfModal || !pdfFrame || !pdfTitle) return;
 
-        document.body.style.overflow = '';
+            pdfTitle.textContent = card.dataset.title || 'Document';
+            pdfFrame.src = card.dataset.pdf;
+
+            pdfModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+
+        });
 
     });
 
-    pdfModal.addEventListener('click', e => {
+    // =========================
+    // CLOSE BUTTONS
+    // =========================
+    const galleryClose = document.querySelector('.gallery-close');
+    if (galleryClose) {
+        galleryClose.addEventListener('click', closeGalleryModal);
+    }
 
-        if(e.target === pdfModal){
+    const imageClose = document.querySelector('.image-close');
+    if (imageClose) {
+        imageClose.addEventListener('click', closeImageModal);
+    }
 
-            pdfModal.classList.remove('active');
+    const videoGalleryClose = document.querySelector('.video-gallery-close');
+    if (videoGalleryClose) {
+        videoGalleryClose.addEventListener('click', closeVideoGalleryModal);
+    }
 
-            pdfFrame.src = '';
+    const pdfClose = document.querySelector('.pdf-close');
+    if (pdfClose) {
+        pdfClose.addEventListener('click', closePdfModal);
+    }
+
+    // =========================
+    // CLICK BACKDROP
+    // =========================
+    if (galleryModal) {
+        galleryModal.addEventListener('click', e => {
+            if (e.target === galleryModal) {
+                closeGalleryModal();
+            }
+        });
+    }
+
+    if (imageModal) {
+        imageModal.addEventListener('click', e => {
+            if (e.target === imageModal) {
+                closeImageModal();
+            }
+        });
+    }
+
+    if (videoGalleryModal) {
+        videoGalleryModal.addEventListener('click', e => {
+            if (e.target === videoGalleryModal) {
+                closeVideoGalleryModal();
+            }
+        });
+    }
+
+    if (pdfModal) {
+        pdfModal.addEventListener('click', e => {
+            if (e.target === pdfModal) {
+                closePdfModal();
+            }
+        });
+    }
+
+    // =========================
+    // ESC KEY SUPPORT
+    // =========================
+    document.addEventListener('keydown', e => {
+
+        if (e.key === 'Escape') {
+
+            closeImageModal();
+            closeGalleryModal();
+            closeVideoGalleryModal();
+            closePdfModal();
 
             document.body.style.overflow = '';
 
